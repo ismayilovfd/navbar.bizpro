@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #474C58;
+}
+
+.nav-parts {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px;
+}
+.nav-parts .nav-texts ul {
+  display: flex;
+  gap: 10px;
+}
+.nav-parts .nav-texts a {
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+}
+.nav-parts .nav-texts :hover {
+  color: #D73E4D;
+  font-weight: 500;
+}
+
+#sec-home {
+  background-image: url(https://preview.colorlib.com/theme/bizpro/images/home/slide-1.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+}
