@@ -12,6 +12,12 @@ header{
     justify-content: space-between;
     padding: 13px;
     
+    .nav-logo{
+        button{
+            color: white;
+        }
+    }
+    
     .nav-texts{
         ul{
             display: flex;
